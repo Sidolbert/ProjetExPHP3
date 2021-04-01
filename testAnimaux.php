@@ -32,3 +32,6 @@ for($i=0; $i<55; $i++){
 	$mistigri->manger();
 }
 
+//plus d'information : test git
+var_dump($mistigri);
+
