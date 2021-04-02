@@ -4,7 +4,7 @@
 abstract class Animal implements GestionAnimaux{
 	
 	//attributs
-	protected $nom;
+	protected $nomAnimal;
 	protected $tarif;
 	protected $nourritureAnimal;
 	protected $quantiteNourriture; //quantité de nourriture mangée à chaque repas par l'animal
