@@ -3,6 +3,7 @@
 //classe abstraite représentant les différents attributs et méthodes communs aux types d'animaux stockés en boutique, jamais instanciée en tant que telle
 abstract class Animal implements GestionAnimaux{
 	
+	//attributs
 	protected $nom;
 	protected $tarif;
 	protected $nourritureAnimal;
