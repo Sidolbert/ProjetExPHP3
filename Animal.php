@@ -8,7 +8,7 @@ abstract class Animal implements GestionAnimaux{
 	protected $tarif;
 	protected $nourritureAnimal;
 	protected $quantiteNourriture; //quantité de nourriture mangée à chaque repas par l'animal
-	static $listeAnimaux = array();
+	static $listeAnimaux = array(); //liste de tous les animaux en stock
 	
 	
 	//utilisé seulement via le constructeur des enfants
