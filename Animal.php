@@ -72,6 +72,11 @@ abstract class Animal implements GestionAnimaux{
 		return $this->get_class() . "\nNom : " . $this->nom . "\nTarif : " . $this->tarif . "\nNourriture : " . $this->nourritureAnimal->type . "\nAppétit : " . $this->quantiteNourriture . "/jour\n";
 	}
 	
+	//affiche un animal
+	function afficher(){
+		echo $this->toString();
+	}
+	
 	
 	
 }

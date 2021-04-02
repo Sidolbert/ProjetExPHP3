@@ -13,4 +13,6 @@ class Poisson extends Animal{
 	function toString(){
 		return parent::toString() . "Espèce : " . $race . "\nHabitat : eau " . $habitat . "\n";
 	}
+	
+	//fonction d'affichage récupérée du parent
 }

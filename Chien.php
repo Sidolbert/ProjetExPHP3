@@ -11,4 +11,6 @@ class Chien extends Animal{
 	function toString(){
 		return parent::toString() . "Race : " . $race . "\n";
 	}
+	
+	//fonction d'affichage récupérée du parent
 }
