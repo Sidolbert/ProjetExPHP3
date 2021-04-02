@@ -10,6 +10,8 @@ abstract class Animal implements GestionAnimaux{
 	protected $quantiteNourriture; //quantité de nourriture mangée à chaque repas par l'animal
 	static $listeAnimaux = array();
 	
+	
+	//utilisé seulement via le constructeur des enfants
 	function __construct($nomA, $tarifA, $nA, $qN){
 		$this->nom = $nomA;
 		$this->tarif = $tarifA;
